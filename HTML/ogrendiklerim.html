@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>Yeni Kursa Hosgeldin </title>
+<style> 
+herhangiBirSinif {
+color:red;
+}
+paragrafIdsi {
+	color:blue;
+}
+a{
+color:red;
+}
+</style>
+<script> 
+function olay(durum){
+alert(durum);
+}
+</script>
+</head>
+<body onload="olay('Hosgeldin asko')">
+<h1 style="color:red"> MERHABA DÜNYA</h1>
+<hr>
+<button> Buton</button><hr>
+<p> Bu bir paragraftır </p><hr>
+<a href="#">Bu bir linktir.</a><hr>
+<img src="html.png" height="300px"/><br>
+<hr>
+<ul>
+<li>ul de sıralı olmayan</li>
+<li>bir liste</li>
+<li>görürüz</li>
+</ul>
+<ul style="list-style-type:circle;">
+<li>madde işaretlerini</li>
+<li>değiştirebiliriz</li>
+<li>daire</li>
+</ul>
+<ul style="list-style-type:square;">
+<li>madde işaretlerini</li>
+<li>değiştirebiliriz</li>
+<li>kare</li>
+</ul>
+<ul style="list-style-type:none;">
+<li>madde işaretlerini</li>
+<li>değiştirebiliriz</li>
+<li>none</li>
+</ul><br><hr>
+<ol>
+<li>ol de sıralı</li>
+<li>bir liste</li>
+<li>görürüz</li>
+</ol>
+<ol type="A">
+<li>madde başlıklarını</li>
+<li>değiştirebiliriz</li>
+<li>böyle</li>
+</ol>
+<ol type="a">
+<li>madde başlıklarını</li>
+<li>değiştirebiliriz</li>
+<li>böyle</li>
+</ol>
+<ol type="I">
+<li>madde başlıklarını</li>
+<li>değiştirebiliriz</li>
+<li>böyle</li>
+</ol>
+<ol type="i">
+<li>madde başlıklarını</li>
+<li>değiştirebiliriz</li>
+<li>böyle</li>
+</ol>
+<hr>
+<ol type="i">
+<li>bu bir içiçe listedir</li>
+<ul>
+<li>iç içe liste</li>
+<li>böyle</li>
+<li>yapılır</li>
+</ul>
+<li>ikinci eleman</li>
+<li>üçüncü eleman</li>
+</ol>
+<hr>
+<ol type="1" start="37">
+<li>farklı bir</li>
+<li>sıradan başlatabiliriz</li>
+<li>listeyi</li>
+</ol>
+<hr>
+<dl>
+<dt>Merhaba</dt>
+<dd> selamlama cümlesi</dd>
+<dt>hi</dt>
+<dd> selamlama cümlesi</dd>
+</dl>
+<hr>
+<pre>
+burada yazdığın zaman öne çıkar.
+enter ile satır atlayabilirsin.(br olmadan).
+ye
+ni
+sa
+tır
+</pre>
+<hr>
+<table border="1px">
+<tr>
+<th>İsim</th>
+<th>Soyisim</th>
+<th>TC:</th>
+ </tr>
+<tr>
+<td>ali </td>
+<td>yıldırım </td>
+<td> 34523498790</td>
+ </tr>
+<tr>
+
+<td>mehmet </td>
+<td>yıldırım </td>
+<td> 31231498790</td>
+ </tr>
+<tr>
+
+<td>mehmet </td>
+<td>yıldırım </td>
+<td> 31231498790</td>
+ </tr>
+<tr>
+
+<td>mehmet </td>
+<td>yıldırım </td>
+<td> 31231498790</td>
+ </tr><tr>
+
+<td>mehmet </td>
+<td>yıldırım </td>
+<td> 31231498790</td>
+ </tr>
+
+</table>
+<hr>
+<b> kalın yazı</b><br>
+<strong> kalın yazı </strong><br>
+<i> italic yazi </i><br>
+<em> em yazı stili </em><br>
+<mark> fosforlu yazı stili </mark><br>
+<del> üzeri çizili yazı stili </del><br>
+<ins> altı çizili yazı stili </ins><br><br><br>
+X<sup> üstüne yazı </sup><br><br>
+X<sub> altına yazı </sub><br><br>
+Normal vs <small> küçük yazı </small><br><br>
+<hr>
+<div>
+div elementi en önemli element(bölümlendirmek için)
+</div>
+<a href="">bu bir satır içi eleman</a>
+<hr>
+<span> bu bir satır içi önemli eleman</span>
+<hr>
+<p id="paragrafIdsi" class="herhangiBirSinif">
+class ile birden fazla nesneyi kapsayabiliriz<br>
+ ID ile bir eleman. her elemanın IDsi farklıdır. <br>
+ ornegin belirli classtakiler kırmızı olsun vb.</p>
+
+<hr>
+<h1 onclick="olay('he aq o kadar kolaydı zaten')"> PARA KAZANMAK İÇİN TIKLA !!1!1!!! </h1>
+
+
+<hr>
+<h1 oncopy="olay('koppyalaaama')"> kopyalarsan yalarlar !!1!1!!! </h1>
+
+
+<hr>
+<h1 ondblclick="olay('çitf tıklama ha?!1?')">  çift tıkla!!1!1!!! </h1>
+
+<hr>
+
+<form action="https://google.com" method="POST">
+	<label>Kullanıcı Adı:*</label>
+	<input name="k_adi" type="text" placeholder="kullaniciAdi" required/>
+	<input name="k_adi2" type="hidden" value="opera kullanıyor."/>
+	<br>
+	<label>Şifre</label>
+	<input name="k_adi3" type="password" autofocus/>
+	<br>
+	<input type="submit" value="giriş yap"/>
+	<br>
+	<input type="tel" value="5550000000" readonly/>
+	<input type="tel" value="5550000000" disabled/>
+</form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
